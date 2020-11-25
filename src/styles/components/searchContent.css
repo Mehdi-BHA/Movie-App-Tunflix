@@ -1,0 +1,6 @@
+.search-content{
+    margin:0 40px;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -26,7 +26,7 @@
     outline:none;
 }
 
-.search-box button{
+.search-box label{
     background-color:transparent;
     width: 40px;
     height: 30px;
@@ -34,9 +34,6 @@
     cursor:pointer;
 }
 
-.search-box button:focus{
-    outline:none;
-}
 
 .search-box:focus-within .fa-search{
     color:black;
@@ -45,4 +42,5 @@
 .fa-search{
     color: white;
     font-size: 19px;
+    transform: translate(6px,4px);
 }

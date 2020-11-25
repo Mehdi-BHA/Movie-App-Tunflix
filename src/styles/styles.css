@@ -6,6 +6,7 @@
 @import './components/addMovie';
 @import './components/filter';
 @import './components/footer';
+@import './components/searchContent';
 
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');

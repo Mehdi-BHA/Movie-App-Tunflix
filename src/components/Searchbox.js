@@ -1,10 +1,12 @@
 import React from 'react';
 
-const Searchbox = () => {
+const Searchbox = (props) => {
+
+
     return (
         <div className="search-box">
-            <input type="text" placeholder="type for search"/>
-            <button><i className="fas fa-search"></i></button>
+            <input id="search" type="text" placeholder="type for search" value={props.searchInput} onChange={(e)=>props.takeInput(e.target.value)}/>
+            <label htmlFor="search"><i className="fas fa-search"></i></label>
         </div>
     );
 };
