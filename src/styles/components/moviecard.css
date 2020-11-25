@@ -1,0 +1,79 @@
+
+.movie-card{
+    background-color: black;
+    min-width:180px;
+    max-width: 180px;
+    transition: .2s;
+    margin-right: 8px;
+}
+
+.movie-card:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 40px black;
+    z-index: 100;
+}
+
+.movie-card img{
+    width:100%;
+    max-height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+
+.movie-infos{
+    display:none;
+    position: absolute;
+    background-color: black;
+    height: 30px;
+    padding: 30px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.movie-card:hover > .movie-infos{
+    display: flex;
+}
+
+
+.movie-infos button{
+    background-color: transparent;
+    width:30px;
+    height: 30px;
+    border:none;
+    font-size: 15px;
+    color:white;
+    margin:0 15px;
+    padding:5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.movie-infos button:hover{
+    transform: scale(1.4);
+}
+
+.stars{
+    display: none;
+    position: absolute;
+    margin-left: 15px ;
+    margin-top: 5px;
+    z-index: 100000;
+    color: white;
+    font-size: 16px;
+}
+
+.movie-card:hover > .stars{
+    display: flex;
+    align-items: center;
+    
+}
+
+.fa-heart{
+    transition: 100ms;
+}
+
+.fa-heart-loved{
+    transform: scale(1.5);
+    color:red;
+}

@@ -1,0 +1,53 @@
+
+.banner{
+    height: 500px;
+    width:100%;
+    margin-bottom: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner p, .banner h2{
+    color:white;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+
+}
+
+.banner h2{
+    font-size: 50px;
+    padding-top:140px;
+    letter-spacing: 2px;
+}
+
+.banner-buttons{
+    margin: 35px 0;
+    margin-left:30px;
+}
+
+.banner-button{
+    background-color: rgba(255, 255, 255, 0.639);
+    border: 1px solid rgba(121, 121, 121, 0.231);
+    font-size: 20px;
+    margin:0 15px;
+    padding:10px 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.banner-button:hover{
+    background-color: rgba(255, 255, 255, 0.809);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.272);
+}
+
+.banner p{
+    font-size: 20px;
+    width: 85%
+}
+
+.banner-fade{
+    height:200px;
+    background: linear-gradient(180deg,transparent 10%,rgb(20, 20, 20));
+}

@@ -1,0 +1,20 @@
+.nav{
+    position:fixed;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    padding-bottom: 27px;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.891) 90%,transparent);
+}
+
+.nav-logo{
+    width:100px;
+    object-fit: contain;
+
+}
+
+.nav-avatar{
+    width:35px;
+}

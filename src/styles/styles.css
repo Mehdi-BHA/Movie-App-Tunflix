@@ -1,0 +1,34 @@
+@import './components/navbar';
+@import './components/searchbox';
+@import './components/row';
+@import './components/banner';
+@import './components/moviecard';
+@import './components/addMovie';
+@import './components/filter';
+@import './components/footer';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+}
+
+.blurred{
+    filter:blur(10px);
+    transition:0.4s;
+}
