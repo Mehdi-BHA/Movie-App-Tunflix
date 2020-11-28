@@ -7,10 +7,16 @@
 @import './components/filter';
 @import './components/footer';
 @import './components/searchContent';
+@import './components/description';
+@import './components/player';
+
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 
 
 

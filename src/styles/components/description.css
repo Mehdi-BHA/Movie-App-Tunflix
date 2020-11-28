@@ -1,0 +1,119 @@
+.description{
+    margin-top: 100px;
+    
+}
+
+.movie-desc{
+    padding: 30px 150px;
+    display: flex;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.685);
+    backdrop-filter: blur(15px);
+
+}
+
+.movie-desc > img {
+    margin-right: 50px;
+    width:300px;
+}
+
+.movie-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.movie-title{
+    font-size: 35px;
+}
+
+.movie-genre-duration{
+    font-size: 18px;
+
+}
+
+.movie-rate{
+    display: flex;
+    align-items: center;
+}
+
+.movie-btn{
+    background-color: transparent;
+    font-size: 25px;
+    border: none;
+    color: white;
+    margin-right: 30px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.395);
+    border: 1px solid rgba(121, 121, 121, 0.231);
+    padding:10px 12px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.movie-btn:hover{
+    background-color: rgba(255, 255, 255, 0.938);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.272);
+    color:black;
+}
+
+.heart-loved{
+    color:red;
+}
+
+.play{
+    display: flex;
+    padding: 10px 40px;
+}
+
+.play span{
+    margin-left: 10px;
+}
+
+.movie-synopsis span {
+    font-weight: 500;
+    font-size: 25px;
+}
+.movie-synopsis{
+    font-weight: 100;
+}
+.movie-authors{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.movie-authors span{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.actors{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    color: white;
+    font-size:18px ;
+    padding: 0 100px;
+    margin-bottom: 200px;
+}
+
+.actor{
+    width:150px;
+}
+.actor img{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.actors h1{
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 300;
+}

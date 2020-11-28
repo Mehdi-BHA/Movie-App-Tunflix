@@ -26,7 +26,7 @@
 }
 
 .banner-button{
-    background-color: rgba(255, 255, 255, 0.639);
+    background-color: rgba(255, 255, 255, 0.395);
     border: 1px solid rgba(121, 121, 121, 0.231);
     font-size: 20px;
     margin:0 15px;
@@ -38,7 +38,7 @@
 }
 
 .banner-button:hover{
-    background-color: rgba(255, 255, 255, 0.809);
+    background-color: rgba(255, 255, 255, 0.938);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.272);
 }
 

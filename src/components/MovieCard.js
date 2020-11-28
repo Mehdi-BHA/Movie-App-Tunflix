@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import ReactStars from 'react-rating-stars-component';
+import {Link} from 'react-router-dom';
 
-function MovieCard({id,rating,img,title}) {
+function MovieCard(props) {
 
-    const [loved,setLoved] = useState(false)
 
     const handleLoved = (e) => {
         e.target.classList.toggle('fas')
@@ -12,9 +12,9 @@ function MovieCard({id,rating,img,title}) {
     }
 
     return (
-            <div key={id} className="movie-card">
-                    { <div className="stars"><ReactStars edit={false} value={rating/2} size={24} isHalf={true} activeColor="red" /></div>}
-                    <img src={img} alt={title} />
+            <div key={props.id} className="movie-card">
+                    { <div className="stars"><ReactStars edit={false} value={props.rating/2} size={24} isHalf={true} activeColor="red" /></div>}
+                    <Link to={`movies/${props.title}`}><img src={props.img} alt={props.title} /></Link>
                     <div className="movie-infos">
                         <button><i className="fas fa-play"></i></button>
                         <button onClick={(e)=>handleLoved(e)}><i className="far fa-heart"></i></button>
